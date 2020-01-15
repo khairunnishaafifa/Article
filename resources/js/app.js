@@ -2,11 +2,12 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
-Vue.component(
-    'example-component',
-    require('./components/ExampleComponent.vue')
-)
+// component
+
 
 const app = new Vue({
-    el: '#app'
+    el: '#app',
+    components: {
+        
+    }
 })
